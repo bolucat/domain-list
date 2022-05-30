@@ -1,8 +1,5 @@
 payload:
-  - '+.aegis.qq.com'
-  - '+.dldir1v6.qq.com'
-  - '+.map.qq.com'
+  - '+.qq.com'
   - '+.qlogo.cn'
-  - '+.qmai.cn'
   - '+.qpic.cn'
-  - '+.weixin.qq.com'
+  - '+.qmai.cn'

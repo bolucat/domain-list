@@ -1,7 +1,4 @@
-weixin.qq.com
-dldir1v6.qq.com
-aegis.qq.com
-map.qq.com
+qq.com
 qlogo.cn
 qpic.cn
 qmai.cn

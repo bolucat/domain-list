@@ -1,5 +1,6 @@
 #!/bin/bash
 # Credits: https://github.com/v2fly/domain-list-community
+# Usage: ./generate.sh -f "domain list name"
 
 OPTION=$1
 NAME=$2
@@ -33,11 +34,11 @@ generate_clash() {
 
 help() {
     echo "Usage: ./generate.sh [OPTION] [NAME]"
-    echo "Example: ./generate.sh -b weibo"
+    echo "Example: ./generate.sh -f weibo"
     echo "Option:"
     echo "-t : Test if clash file exists"
     echo "-gc : Generate clash file"
-    echo "-b : Build new clash file"
+    echo "-f : Generate new clash file"
     echo "-h : Show this help."
     echo "Name:"
     echo "txt file in src folder"
@@ -53,7 +54,7 @@ case ${OPTION} in
     -h)
         help
         ;;
-    -b)
+    -f)
         test
         generate_clash
         ;;
